@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"version": "1",
+	"name": "MPointer",
+	"description": "Pointer extension.",
+	"action": { "default_popup": "index.html" },
+	"permissions": ["scripting"],
+	"host_permissions": ["http://*/*", "https://*/*"],
+	"icons": { "32": "32.png" }
+}

@@ -10,7 +10,7 @@
 		"service_worker": "worker.js",
 		"type": "module"
 	},
-	"action": {},
+	"action": { "default_popup": "index.html" },
 	"permissions": ["scripting"],
 	"host_permissions": ["http://*/*", "https://*/*"]
 }

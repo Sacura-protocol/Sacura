@@ -1,0 +1,16 @@
+{
+	"manifest_version": 3,
+	"name": "Pointer Page Extension",
+	"version": "1.0",
+	"description": "Color pointer Extension",
+	"icons": {
+		"32": "32.png"
+	},
+	"background": {
+		"service_worker": "worker.js",
+		"type": "module"
+	},
+	"action": {},
+	"permissions": ["scripting"],
+	"host_permissions": ["http://*/*", "https://*/*"]
+}
